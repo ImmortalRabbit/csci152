@@ -6,13 +6,10 @@ public class AutoTest
   // arguments are passed using the text field below this editor
   public static void main(String[] args)
   {
-    
-
-    Automobile car1 = new Automobile(); 
-    Automobile car2 = new Automobile(); 
-	int name = 0;
-	car1.setName(name++);
-    car2.setName(name++);
+    int name = 0;
+    Automobile car1 = new Automobile(name++); 
+    Automobile car2 = new Automobile(name++); 
+	
   
     car1.startCar();
     
