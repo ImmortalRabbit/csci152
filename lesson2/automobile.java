@@ -6,14 +6,11 @@ public class Automobile
   
   	private int name;
  
-    public Automobile() { 
-   		engineRunning = false; 
+    public Automobile(int na) { 
+   	engineRunning = false; 
     	speed = 0.0; 
+	name = na;
     } 
-	
-  	public void setName(int na){
-  		name = na;
-    }
 
     public void startCar(){ 
     	engineRunning = true; 
