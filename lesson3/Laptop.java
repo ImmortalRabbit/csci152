@@ -3,12 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package electronicdevices;
+package electrodevices;
 
-/**
- *
- * @author samal
- */
+
 public class Laptop extends ElectronicDevices {
     private boolean isWindows;
 
