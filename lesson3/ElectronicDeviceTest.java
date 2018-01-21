@@ -3,12 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package electronicdevices;
+package electrodevices;
 
-/**
- *
- * @author samal
- */
 public class ElectronicDeviceTest {
 public static void doSomething (ElectronicDevices devices){
     System.out.println(devices);
